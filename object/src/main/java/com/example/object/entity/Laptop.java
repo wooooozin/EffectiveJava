@@ -1,5 +1,6 @@
 package com.example.object.entity;
 
+import com.example.object.model.LaptopDto;
 import com.example.object.model.LaptopForm;
 import lombok.Getter;
 import lombok.Setter;
