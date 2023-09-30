@@ -1,13 +1,19 @@
 package com.example.object.entity;
 
-import com.example.object.model.LaptopDto;
 import com.example.object.model.LaptopForm;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Laptop {
+    @ToString.Exclude
     private Long id;
     private String model;
     private String company;
